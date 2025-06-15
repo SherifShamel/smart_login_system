@@ -21,7 +21,7 @@ document.getElementById("loginBtn").addEventListener('click', function () {
                     found = true;
 
                     sessionStorage.setItem("login", `${accounts[i].username}`)
-                    document.location.href = 'home.html'
+                    document.location.href = '/home.html'
                 } else {
                     document.querySelector(".my-alert").innerHTML = "Creditials aare wrong"
                     document.querySelector(".my-alert").classList.remove('d-none');
